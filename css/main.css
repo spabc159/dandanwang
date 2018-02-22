@@ -1,0 +1,164 @@
+img{
+	display: block;
+	max-width: 100%;
+}
+a:hover{
+	text-decoration: none;
+}
+.navbar-brand{
+	background-image: url(../img/2.jpg);
+	width: 50px;
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+
+img, .side-bar .list-group-item, .side-bar-card{
+	border-radius: 3px;
+}
+
+.side-bar .list-group-item{
+	border:0;
+}
+
+.news-list-item{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #eee;
+}
+
+.news-list-item:first-child{
+	padding-top: 0;
+}
+
+.list-group-item.active{
+	background-color: #f7931a;
+	margin-bottom: 5px;
+}
+
+.news-list-item .title{
+	font-size: 18px;
+	color: #444;
+	font-weight: bold;
+	margin-bottom: 5px;
+	line-height: 1.5;
+	display: block;
+}
+.news-list-item .title:hover{
+	color: #f7931a;
+}
+
+.news-list-item .info{
+	color: #888;
+}
+
+.news-list-item .avatar img{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin-right: 5px;
+}
+
+
+.side-bar-card{
+	background: rgba(0,0,0,.1);
+	margin-top: 15px;
+	padding: 10px 0;
+}
+
+.side-bar-card .flag{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.side-bar-card .text-lg{
+	font-size: 150%;
+}
+
+.side-bar-card .card-title,
+.side-bar-card .card-body .list .item{
+	padding: 10px 15px;
+}
+
+.side-bar-card .card-title{
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.side-bar-card .card-body .list .item:hover{
+	background: rgba(0,0,0,.05);
+}
+
+.side-bar-card .card-body .list .item .title{
+	padding-bottom: 5px;
+}
+.side-bar-card .card-body .list .item .desc{
+	color: #999;
+}
+
+
+.news-title{
+	line-height: 1.3em;
+}
+.news-status{
+	color: #999;
+}
+.news-status .label{
+	opacity: .8;
+}
+
+.news-content{
+	margin-top: 20px;
+	font-size: 15px;
+	line-height: 1.5;
+}
+.news-content img{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.no-padding-h{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.footer{
+	margin-top: 20px;
+	padding: 20px 0;
+	text-align: center;
+	color: #999;
+}
+
+.container-small{
+	max-width: 500px;
+}
+.btn-primary{
+	background-color: #f7931a;
+	border-color: #da831a;
+}
+
+.btn-primary:hover{
+	background-color: #c17519;
+	border-color: #da831a;
+}
+
+#toggle-checkbox:checked ~ div{
+	display: block!important;
+}
+
+#toggle-label{
+	display: inline-block;
+	position: absolute;
+	right: 15px;
+	top:13px;
+	font-size: 16px;
+	font-weight: normal;
+	color: #666;
+	display: none;
+}
+#toggle-label:hover{
+	color: #333;
+}
+
